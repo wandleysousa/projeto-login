@@ -8,10 +8,11 @@
     }
     #imagem{
         float: left;
-        height: 470px;
+        height: 86vh;
         width: 437px;
         background-position: bottom center;
         background-attachment: fixed;
+        background-size: cover;
         
     }
     div#login{
