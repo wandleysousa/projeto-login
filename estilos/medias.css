@@ -1,0 +1,58 @@
+@charset "utf-8";
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+    main{
+        width: 800px;
+        height: 450px;
+        background-color: rgba(250, 251, 252, 0.61);
+    }
+    #imagem{
+        float: left;
+        height: 470px;
+        width: 437px;
+        background-position: bottom center;
+        background-attachment: fixed;
+        
+    }
+    div#login{
+        width: 360px;
+        height: 50vh;
+        float: right;
+        padding-top: 54px;
+        padding-left: -40px;
+    }
+    .email{
+        text-align: left;
+        position: absolute;
+        left: 453px;
+    }
+
+}
+
+@media screen and (min-width: 992px) {
+    main{
+        width: 800px;
+        height: 450px;
+        background-color: rgba(250, 251, 252, 0.61);
+    }
+    #imagem{
+        float: left;
+        height: 470px;
+        width: 442px;
+        background-position: center center;
+        background-attachment: fixed;
+        
+    }
+    div#login{
+        width: 355px;
+        height: 50vh;
+        float: right;
+        padding-top: 54px;
+        padding-left: -40px;
+    }
+    .email{
+        text-align: left;
+        position: absolute;
+        left: 453px;
+    }
+}

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    
+    <link rel="shortcut icon" href="imagens/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="estilos/style.css">
+    <link rel="stylesheet" href="estilos/medias.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=vpn_key"/>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=person" />
+</head>
+<body>
+    <main>
+        <section>
+            <div id="imagem"></div>
+            
+            <div id="login">
+                <h1>Login</h1>
+                <p>Seja bem-vindo(a) novamente. Faça login para verificar seus agendamentos.</p>
+                <form action="login.php" method="post">
+                    <div class="form">
+                        <div class="email">Usuário:</div>
+                        <input type="email" name="email" id="iemail" placeholder="Digite seu E-mail" size="30" required>
+                        <label for="iemail"></label>
+                    </div>
+                    <div class="form" id="senha" >
+                        <div class="email">Senha:</div>
+                            <input type="password" name="senha" id="isenha" placeholder="Digite sua senha" minlength="8" size="30" >
+
+                        <label for="isenha"></label>
+                    </div>
+                    <div id="entrar">
+                        <input type="submit" value="Entrar" >
+                    </div>
+                    <div id="link">
+                        <a href="#">Esqueceu a senha? Click aqui!</a>
+                    </div>
+                </form>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
