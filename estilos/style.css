@@ -49,11 +49,13 @@ main{
 div{
     text-align: center;
 }
-h1, p{
+p{
     padding: 10px;
+    font-size: 0.9em;
 }
 h1{
     font-size: 2em;
+    padding: 10px;
 }
 .form{
     padding: 3px;
@@ -72,4 +74,5 @@ div#link{
     text-align: left;
     position: absolute;
     left: 28px;
+    font-size: 0.9em;
 }
