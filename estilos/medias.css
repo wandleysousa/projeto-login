@@ -8,9 +8,9 @@
     }
     #imagem{
         float: left;
-        height: 450px;
+        height: 460px;
         width: 437px;
-        background-position: center center;
+        background-position: left center;
         background-attachment: fixed;
         
         
