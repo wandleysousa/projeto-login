@@ -14,7 +14,7 @@ body{
     position: relative;
 }
 main{
-    background-color: rgba(255, 255, 255, 0.911);
+    background-color: rgb(255, 255, 255);
     width: 400px;
     margin: auto;
     position: absolute;
