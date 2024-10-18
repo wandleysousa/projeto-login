@@ -3,12 +3,12 @@
 @media screen and (min-width: 768px) and (max-width: 992px) {
     main{
         width: 800px;
-        height: 450px;
+        height: 350px;
         background-color: rgba(250, 251, 252, 0.61);
     }
     #imagem{
         float: left;
-        height: 460px;
+        height: 380px;
         width: 437px;
         background-position: left center;
         background-attachment: fixed;
