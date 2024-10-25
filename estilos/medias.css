@@ -2,21 +2,21 @@
 
 @media screen and (min-width: 768px) and (max-width: 992px) {
     main{
-        width: 800px;
+        width: 750px;
         height: 350px;
         background-color: rgba(250, 251, 252, 0.61);
     }
     #imagem{
         float: left;
         height: 380px;
-        width: 437px;
+        width: 385px;
         background-position: left center;
         background-attachment: fixed;
         
         
     }
     div#login{
-        width: 360px;
+        width: 335px;
         height: 50vh;
         float: right;
         padding-top: 54px;
@@ -25,7 +25,7 @@
     .email{
         text-align: left;
         position: absolute;
-        left: 453px;
+        left: 408px;
     }
 
 }
